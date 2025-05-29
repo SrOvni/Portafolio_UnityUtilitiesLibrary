@@ -1,0 +1,16 @@
+{
+  "name": "com.reniergaytan.statemachine",
+  "version": "1.0.0",
+  "displayName": "State Machine",
+  "description": "This is an example package",
+  "unity": "2023.1",
+  "dependencies": {
+    "com.demigian.dotween" : "https://github.com/Demigiant/dotween.git#develop"
+ },
+  "author": {
+    "name": "Renier Gaytan",
+    "email": "renier.gaytan@gmail.com",
+    "url": "https://www.instagram.com/reniergc?igsh=dGZ4cHV6cXN6ZjNq&utm_source=qr"
+  }
+}
+

@@ -4,9 +4,6 @@
   "displayName": "UtilitiesPackage",
   "description": "",
   "unity": "2023.1",
-  "dependencies": {
-    "com.demigiant.dotween" : "https://github.com/Demigiant/dotween.git"
- },
   "author": {
     "name": "Renier Gaytan",
     "email": "renier.gaytan@gmail.com",

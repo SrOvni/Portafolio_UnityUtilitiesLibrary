@@ -1,4 +1,10 @@
 # Utilities Library
+## Time Manager
+An static class for time implementations
+### Timer
+A base clase for:
+- Countdown Timer
+With 
 ## State Machine
 A quick start when creating a state machine with a simple base state machine logic
 ### State Manager

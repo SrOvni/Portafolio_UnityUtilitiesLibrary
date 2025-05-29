@@ -1,11 +1,11 @@
 {
-  "name": "com.reniergaytan.statemachine",
+  "name": "com.reniergaytan.utilitiespackage",
   "version": "1.0.0",
-  "displayName": "State Machine",
-  "description": "This is an example package",
+  "displayName": "UtilitiesPackage",
+  "description": "",
   "unity": "2023.1",
   "dependencies": {
-    "com.demigiant.dotween" : "https://github.com/Demigiant/dotween.git#develop"
+    "com.demigiant.dotween" : "https://github.com/Demigiant/dotween.git"
  },
   "author": {
     "name": "Renier Gaytan",

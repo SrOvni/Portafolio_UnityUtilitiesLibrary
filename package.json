@@ -5,7 +5,7 @@
   "description": "This is an example package",
   "unity": "2023.1",
   "dependencies": {
-    "com.demigian.dotween" : "https://github.com/Demigiant/dotween.git#develop"
+    "com.demigiant.dotween" : "https://github.com/Demigiant/dotween.git#develop"
  },
   "author": {
     "name": "Renier Gaytan",

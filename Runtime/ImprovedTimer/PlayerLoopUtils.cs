@@ -14,7 +14,7 @@ namespace UtilitiesLibrary.LowLevel
         //Remove a system from the player loop
         public static void RemoveSystem<T>(ref PlayerLoopSystem loop, in PlayerLoopSystem systemToRemove)
         {
-            if (loop.type == typeof(T)) return;
+            if (loop.type == null   ) return;
 
             var playerLoopSystemList = new List<PlayerLoopSystem>(loop.subSystemList);
 

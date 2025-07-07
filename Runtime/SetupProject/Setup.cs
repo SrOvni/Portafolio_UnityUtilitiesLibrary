@@ -7,10 +7,10 @@ namespace UtilitiesLibrary.Setup
 {
     public static class Setup
     {
-        [MenuItem("Tools/Setup/Create Default Projects")]
+        [MenuItem("Tools/Setup/Folder preset")]
         public static void CreateDefaultFolders()
         {
-            CreateDefault("Project", "Animations", "Art", "Audio", "Editor", "Level", "Particles", "Prefabs", "Scenes", "Scripts", "Shaders");
+            CreateDefault("Project", "Animations", "Art", "Audio", "Editor", "Input Action Assets", "Level", "Particles", "Prefabs", "Scenes", "Scripts", "Shaders");
             Refresh();
             CreateDefault("External", "");
             Refresh();

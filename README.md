@@ -1,4 +1,6 @@
 # Utilities Library
+## Setup
+A basic folder preset under Tools/Setup
 ## Time Manager
 An static class for time implementations
 ### Timer

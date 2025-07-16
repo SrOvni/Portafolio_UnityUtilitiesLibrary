@@ -5,29 +5,42 @@ namespace UtilitiesLibrary.ImprovedTimers
     public static class TimerManager
     {
         static readonly List<Timer> timers = new List<Timer>();
+        static private readonly object lockObject = new object();
 
         public static void RegisterTimer(Timer timer)
         {
             if (timer == null) return;
-            timers.Add(timer);
+            lock (lockObject)
+            {
+                timers.Add(timer);
+            } 
         }
 
         public static void DeregisterTimer(Timer timer)
         {
-            if (timers == null) return;
-            timers.Add(timer);
+            if (timer == null) return;
+            lock (lockObject)
+            {
+                timers.Remove(timer);
+            }
         }
 
         public static void UpdateTimers()
         {
-            foreach (Timer timer in timers)
+            lock (lockObject)
             {
-                timer.Tick();
+                foreach (Timer timer in timers.ToArray())
+                {
+                    timer.Tick();
+                }
             }
         }
         public static void Clear()
         {
-            timers.Clear();
+            lock (lockObject)
+            {
+                timers.Clear();
+            }
         }
     }
 }
